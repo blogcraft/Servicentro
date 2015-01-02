@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<meta name="robots" content="noindex">
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,23 +8,31 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://servicentro.cl/index.html</loc>
+  <loc>http://www.servicentro.cl/</loc>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://servicentro.cl/quienes-somos.html</loc>
+  <loc>http://www.servicentro.cl/quienes-somos/</loc>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://servicentro.cl/media.html</loc>
+  <loc>http://www.servicentro.cl/media/</loc>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://servicentro.cl/lyrics.html</loc>
+  <loc>http://www.servicentro.cl/lyrics/</loc>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://servicentro.cl/contacto.php</loc>
+  <loc>http://www.servicentro.cl/lyrics_pt/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.servicentro.cl/galeria/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.servicentro.cl/contacto/</loc>
   <changefreq>weekly</changefreq>
 </url>
 </urlset>

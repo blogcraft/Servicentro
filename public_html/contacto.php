@@ -16,20 +16,21 @@
 	
 	<title>Servicentro - Contáctanos</title>
 	
-	<link rel="shortcut icon" href="http://www.servicentro.cl/src/img/favicon.ico"/>
-	<link rel="icon" type="image/png" href="http://www.servicentro.cl/src/img/Servicetro.png"/>
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="shortcut icon" href="/src/img/favicon.ico"/>
+	<link rel="icon" type="image/png" href="/src/img/Servicetro.png"/>
+	<!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis">
-  	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-	<link rel="stylesheet" href="http://www.servicentro.cl/src/stylesheet.css"/>
-	<link rel="stylesheet" href="http://www.servicentro.cl/lib/font-awesome/css/font-awesome.min.css"/>
+  	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />-->
+	<link rel="stylesheet" href="/src/stylesheet.css"/>
+	<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css"/>
+	<link rel="alternate" hreflang="es" href="/contacto/">
 	
+	<script src="/src/scripts/pace.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-	<script src="http://www.servicentro.cl/src/jquery.popmenu.js"></script>
-	<script src="http://www.servicentro.cl/src/menu.js"></script>
-	<script src="http://www.servicentro.cl/src/scripts/twitter.js"></script>
-	<script src="http://www.servicentro.cl/src/scripts/facebook.js"></script>
+  	<!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>-->
+	<script src="/src/jquery.popmenu.js"></script>
+	<script async src="/src/scripts/twitter.js"></script>
+	<script async src="/src/scripts/facebook.js"></script>
 	<script>
         $(function(){
             $('#demo_box').popmenu();
@@ -106,10 +107,22 @@
 	<!-- End Google Tag Manager -->
 
 	<header>
-		<img src="http://www.servicentro.cl/src/img/customLogo.png">
+		<img src="/src/img/customLogo.png">
 	</header>
 	<div id= "menu-bar">
 		<nav id="demo_box" class='menu'>
+			<div class="pop_ctrl"><i class="fa fa-bars"></i></div>
+			<ul id="demo_ul">
+				<li class="demo_li"><a href="/" title="inicio"><div><i class="fa fa-home"></i></div><div>inicio</div></a></li>
+				<li class="demo_li"><a href="/quienes-somos/" title="conócenos"><div><i class="fa fa-question"></i></div><div>conócenos</div></a></li>
+				<li class="demo_li"><a href="/media/" title="música"><div><i class="fa fa-music"></i></div><div>música</div></a></li>
+				<li class="demo_li"><a href="/lyrics/" title="letras"><div><i class="fa fa-book"></i></div><div>letras</div></a></li>
+				<li class="demo_li"><a href="/galeria/" title="galería"><div><i class="fa fa-picture-o"></i></div><div>galería</div></a></li>
+				<li class="demo_li"><a href="https://www.facebook.com/Servicentrocl" target="blank" title="facebook"><div><i class="fa fa-facebook"></i></div><div>facebook</div></a></li>
+				<li class="demo_li"><a href="https://www.youtube.com/channel/UCzh_MtK7xNV14i4THYnUYIQ" target="blank" title="youtube"><div><i class="fa fa-youtube"></i></div><div>youtube</div></a></li>
+				<li class="demo_li"><a href="https://twitter.com/Servicentro_cl"target="blank"><div><i class="fa fa-twitter" title="twitter"></i></div><div>twitter</div></a></li>
+				<li class="demo_li"><a href="/contacto/"><div><i class="fa fa-envelope" title="contáctanos"></i></div><div>contáctanos</div></a></li>
+			</ul>
 		</nav>
 		<div style ="width: 100%;">
 			<h2 class='titulo'>Contá<span class="rojo">c</span>tanos</h2>
@@ -151,5 +164,9 @@
 			</div>
 		</section>
 	</div>
+	<footer>
+		<p>© 2014 Servicentro. Todos los derechos reservados.</p>
+	</footer>
+
 </body>
 </html>

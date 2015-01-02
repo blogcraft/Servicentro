@@ -16,26 +16,21 @@
 	
 	<title>Servicentro - Católicos Haciendo Rock!</title>
 	
-	<link rel="shortcut icon" href="http://www.servicentro.cl/src/img/favicon.ico"/>
-	<link rel="icon" type="image/png" href="http://www.servicentro.cl/src/img/Servicetro.png"/>
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis">
-  	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-	<link rel="stylesheet" href="http://www.servicentro.cl/src/stylesheet.css"/>
-	<link rel="stylesheet" href="http://www.servicentro.cl/lib/font-awesome/css/font-awesome.min.css"/>
-	
-	<link href="http://www.servicentro.cl/index/"/>
-	<link href="http://www.servicentro.cl/quienes-somos/"/>
-	<link href="http://www.servicentro.cl/media/"/>
-	<link href="http://www.servicentro.cl/lyrics/"/>
-	<link href="http://www.servicentro.cl/contacto/"/>
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-	<script src="http://www.servicentro.cl/src/jquery.popmenu.js"></script>
-	<script src="http://www.servicentro.cl/src/menu.js"></script>
-	<script src="http://www.servicentro.cl/src/scripts/twitter.js"></script>
-	<script src="http://www.servicentro.cl/src/scripts/facebook.js"></script>
+	<link rel="shortcut icon" href="/src/img/favicon.ico"/>
+	<link rel="icon" type="image/png" href="/src/img/Servicetro.png"/>
+	<!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans"> -->
+	<!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis"> -->
+  	<!--<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />-->
+	<link rel="stylesheet" href="/src/stylesheet.css"/>
+	<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css"/>
+	<link rel="alternate" hreflang="es" href="/">
+
+	<script src="/src/scripts/pace.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  	<!--<script async src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> -->
+	<script src="/src/jquery.popmenu.js"></script>
+	<script async src="/src/scripts/twitter.js"></script>
+	<script async src="/src/scripts/facebook.js"></script>
     <script>
         $(function(){
             $('#demo_box').popmenu();
@@ -52,9 +47,11 @@
 		ga('require', 'displayfeatures');
 		ga('send', 'pageview');
 	</script>
+	<script src="https://apis.google.com/js/platform.js" async defer>
+	  	{lang: 'es'}
+	</script>
 </head>
 <body>
-
 	<!-- Google Tag Manager -->
 	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NMNBMM"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -66,21 +63,21 @@
 	<!-- End Google Tag Manager -->
 
 	<header>
-		<img src="http://www.servicentro.cl/src/img/customLogo.png" alt="Servicentro">
+		<img src="/src/img/customLogo.png" alt="Servicentro">
 	</header>
 	<div id= "menu-bar">
 		<nav id="demo_box" class='menu'>
 			<div class="pop_ctrl"><i class="fa fa-bars"></i></div>
 			<ul id="demo_ul">
-				<li class="demo_li"><a href="http://www.servicentro.cl/"><div><i class="fa fa-home"></i></div><div>inicio</div></a></li>
-				<li class="demo_li"><a href="http://www.servicentro.cl/quienes-somos/"><div><i class="fa fa-question"></i></div><div>conócenos</div></a></li>
-				<li class="demo_li"><a href="http://www.servicentro.cl/media/"><div><i class="fa fa-music"></i></div><div>música</div></a></li>
-				<li class="demo_li"><a href="http://www.servicentro.cl/lyrics/"><div><i class="fa fa-book"></i></div><div>letras</div></a></li>
-				<li class="demo_li"><a href="https://www.facebook.com/Servicentrocl" target="blank"><div><i class="fa fa-facebook"></i></div><div>facebook</div></a></li>
-				<li class="demo_li"><a href="https://www.youtube.com/channel/UCzh_MtK7xNV14i4THYnUYIQ" target="blank"><div><i class="fa fa-youtube"></i></div><div>youtube</div></a></li>
-				<li class="demo_li"><a href="https://twitter.com/Servicentro_cl"target="blank"><div><i class="fa fa-twitter"></i></div><div>twitter</div></a></li>
-				<li class="demo_li"><div><i class="fa fa-ticket"></i></div><div>tours</div></li>
-				<li class="demo_li"><a href="http://www.servicentro.cl/contacto/"><div><i class="fa fa-envelope"></i></div><div>contáctanos</div></a></li>
+				<li class="demo_li"><a href="/" title="inicio"><div><i class="fa fa-home"></i></div><div>inicio</div></a></li>
+				<li class="demo_li"><a href="/quienes-somos/" title="conócenos"><div><i class="fa fa-question"></i></div><div>conócenos</div></a></li>
+				<li class="demo_li"><a href="/media/" title="música"><div><i class="fa fa-music"></i></div><div>música</div></a></li>
+				<li class="demo_li"><a href="/lyrics/" title="letras"><div><i class="fa fa-book"></i></div><div>letras</div></a></li>
+				<li class="demo_li"><a href="/galeria/" title="galería"><div><i class="fa fa-picture-o"></i></div><div>galería</div></a></li>
+				<li class="demo_li"><a href="//facebook.com/Servicentrocl" target="blank" title="facebook"><div><i class="fa fa-facebook"></i></div><div>facebook</div></a></li>
+				<li class="demo_li"><a href="//youtube.com/channel/UCzh_MtK7xNV14i4THYnUYIQ" target="blank" title="youtube"><div><i class="fa fa-youtube"></i></div><div>youtube</div></a></li>
+				<li class="demo_li"><a href="//twitter.com/Servicentro_cl"target="blank"><div><i class="fa fa-twitter" title="twitter"></i></div><div>twitter</div></a></li>
+				<li class="demo_li"><a href="/contacto/"><div><i class="fa fa-envelope" title="contáctanos"></i></div><div>contáctanos</div></a></li>
 			</ul>
 		</nav>
 		<div style ="width: 100%;">
@@ -89,12 +86,14 @@
 		<div class='social'>
 			<div class="fb-like" data-href="//www.facebook.com/Servicentrocl" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
 			<a href="//twitter.com/Servicentro_cl" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-lang="es"></a>
+			<div class="g-plusone" data-size="tall" data-annotation="none"></div>
+			<a href="https://plus.google.com/105429667262283291537" rel="publisher"></a>
 		</div>
 	</div>
 	<div class= "outer">
 		<section itemscope itemtype ="http://schema.org/MusicVideoObject" class="video-container page">
-			<a href="http://www.youtube.com/embed/0KNsVDvubm8" itemprop="url"></a>
-			<iframe src="http://www.youtube.com/embed/0KNsVDvubm8?rel=0&showinfo=0" frameborder="0" width="560" height="315"></iframe>
+			<a href="http://www.youtube.com/embed/XMJMVZbm6Zo" itemprop="url"></a>
+			<iframe src="http://www.youtube.com/embed/XMJMVZbm6Zo?rel=0&showinfo=0" frameborder="0" width="560" height="315"></iframe>
 		</section>
 	</div>
 </body>

@@ -1,6 +1,25 @@
 /*
 Pagina en general
 */
+.pace .pace-progress {
+  background: rgb(244,2,0);
+  background: rgba(244,2,0,213);
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 2px;
+
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.pace-inactive {
+  display: none;
+}
+
 body {
 	font-family: 'Open Sans', 'Dosis','Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background: white;
@@ -23,8 +42,12 @@ header {
 	border-bottom-style:solid;
 	border-width: 1px;
 }
-img {
+header img {
 	max-width:100%;
+}
+
+footer {
+	text-align: center;
 }
 .page {
 	background: #fff;
@@ -43,7 +66,7 @@ img {
 }
 .outer {
 	max-width: 800px;
-	max-height: 400px;
+	/*max-height: 400px;*/
 	margin:auto;
 	clear: both;
 }
@@ -173,6 +196,48 @@ Letra
 	margin: 0;
 }
 .letra {
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: rgb(202, 197, 197);
+}
+
+/*
+Lenguaje
+*/
+#language {
+	text-align: center;
+	width:130px;
+}
+#language > h3 {
+	display: inline;
+}
+#language > ul > a > li {
+	list-style-type: none;
+	border-style: solid;
+	border-radius: 0.5em;
+	border-width: 1px;
+	border-color: rgb(202, 197, 197);
+	background-color: rgb(236, 236, 236);
+	padding: 0;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 0;
+}
+#language:hover {
+	background: #545454;
+	-o-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	border-radius: 0.3em;
+}
+#language > ul {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+}
+
+.itemLang {
+	padding: 0;
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: rgb(202, 197, 197);

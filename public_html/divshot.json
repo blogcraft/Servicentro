@@ -1,0 +1,6 @@
+{
+  "name": "servicentrov1",
+  "root": "./",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
